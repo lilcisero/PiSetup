@@ -1,0 +1,39 @@
+### List of Sofware to install for Rasberry Pi ### 
+
+1. Brave Browser
+2. VS Code
+3. Anaconda
+4. Real VNC (adjust settings the accessing computer is what actually needs to software
+5. Add more as you go along
+
+### Windows  11 Virtual Machine For Pi ### 
+
+# Working on getting Windows 11 to work
+# This Command Works once you get the install working 
+/home/pcpc/.local/share/bvm/bvm boot /home/pcpc/win11
+
+BOTSPOT  VIRTUAL  MACHINE
+"Introducing: a really good way to use up storage space!"
+Installing dependencies, please wait...
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+Package installation complete!
+BVM mode firstboot
+Windows should install 100% automatically. This will take several hours.
+QEMU closed.
+Mounting volume... OK
+Processing of $MFT and $MFTMirr completed successfully.
+Checking the alternate boot sector... OK
+NTFS volume version is 3.1.
+NTFS partition /dev/nbd0p4 was processed successfully.
+Successfully removed Microsoft Defender from disk.qcow2
+Successfully removed UCPD.sys from disk.qcow2
+You should now be ready for the next step: /home/pcpc/.local/share/bvm/bvm boot /home/pcpc/win11
+Operation succeeded. Please close this terminal to proceed to the next step.
+
+
+
+You should now be ready for the next step: /home/pcpc/.local/share/bvm/bvm boot /home/pcpc/win11
+
+
+
