@@ -1,7 +1,24 @@
 ### List of Sofware to install for Rasberry Pi ### 
 
 1. Brave Browser
+
+sudo apt install curl
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+
+sudo apt update
+
+sudo apt install brave-browser
+
+
 2. VS Code
+
+sudo apt update
+sudo apt install code -y
+
+
 3. Anaconda
 4. Real VNC (adjust settings the accessing computer is what actually needs to software
 5. Add more as you go along
